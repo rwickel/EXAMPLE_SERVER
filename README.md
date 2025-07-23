@@ -1,4 +1,4 @@
-# 🚀 Ollama Flask Proxy API
+# Ollama Flask Proxy API
 
 A lightweight Flask API server that acts as a proxy for the Ollama local AI model server, providing a convenient endpoint for chat completions. This allows you to easily integrate local large language models (LLMs) powered by Ollama into your web applications, frontend projects, or other services, with built-in CORS support.
 
