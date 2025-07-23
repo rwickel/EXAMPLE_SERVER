@@ -69,6 +69,10 @@ Before you begin, ensure you have the following installed and set up:
 ### Running the API Server
 
 From the root of your project directory (with your virtual environment activated):
-
 ```bash
 python app.py
+
+<img width="1235" height="239" alt="image" src="https://github.com/user-attachments/assets/97cb821c-b666-4053-b149-42800320d007" />
+
+
+
