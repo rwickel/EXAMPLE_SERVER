@@ -71,6 +71,19 @@ Before you begin, ensure you have the following installed and set up:
 From the root of your project directory (with your virtual environment activated):
 ```bash
 python app.py
+ ```
+
+```python
+import ollama
+
+client = ollama.Client(host='http://127.0.0.1:5000/', timeout=240.0)
+
+llm = LLM(client=client)
+
+message = [{"role": "user", "content": "hello"}]              
+response = llm.get_chat_completion(message) 
+print(response) 
+```
 
 <img width="1235" height="239" alt="image" src="https://github.com/user-attachments/assets/97cb821c-b666-4053-b149-42800320d007" />
 
