@@ -73,6 +73,8 @@ From the root of your project directory (with your virtual environment activated
 python app.py
  ```
 
+### Request the API Server
+
 ```python
 import ollama
 
