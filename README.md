@@ -86,7 +86,7 @@ message = [{"role": "user", "content": "hello"}]
 response = llm.get_chat_completion(message) 
 print(response) 
 ```
-
+### Response API Server
 <img width="1235" height="239" alt="image" src="https://github.com/user-attachments/assets/97cb821c-b666-4053-b149-42800320d007" />
 
 
